@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Shop</title>
+        <script src='shop.js'></script>
+        <link rel='stylesheet' href ='shop.css'>
+        <STYLE> A {text-decoration: none;} </STYLE>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+
+    <body>
+
+        <div class="topnav">
+            <img class="logo" src="Images/logo.png"/>
+            <p class="event">31st July - <br>2nd August 2020<br>Hillsborough, Sheffield</p>
+            <a href="mainpage.html">Home</a>
+            <a href="Line Up.html">Line Up</a>
+            <a class="active" href="shop.html">Shop</a>
+            <a href="info.html">Info</a>
+            <div class="bookTickets">
+              <form action="shop.html">
+                <input type="submit" value="Book Tickets">
+              </form>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        
+        <h1>Customise your festival experience!</h1>
+
+        <hr>
+
+        <div class="row">
+            <div class="column">
+                <img src="Images/ticket.jpg">
+                <!-- <p>Text Here</p> -->
+                <!-- <button onclick="showAlert()">VIP Tickets</button> -->   
+            </div>
+
+            <div class="column">
+                <img src="Images/VIP.jpg">
+                <!-- <button onclick="showAlert()">Afterparty Tickets</button> -->
+            </div>
+
+            <div class="column">
+                <img src="Images/afterparty.png">
+            </div>
+        </div>
+
+        <div class="rowbutton">
+            <div class="columnbutton">
+                <input class=button type="button" id="btnShowMsg1" value="Weekend Tickets" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton">
+                <input class=button type="button" id="btnShowMsg2" value="VIP Tickets" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton">
+                <input class=button type="button" id="btnShowMsg3" value="Afterparty Tickets" onClick='showMessage(this.id)'/>
+            </div>
+        </div>
+
+        <div class="row1">
+            <div class="column1">
+                <img src="Images/tshirt.jpg">
+            </div>
+
+            <div class="column1">
+            <img src="Images/hoodie.jpg">
+            </div>
+
+            <div class="column1">
+                <img src="Images/hat.jpg">
+            </div>
+        </div>
+
+        <div class="rowbutton1">
+            <div class="columnbutton1">
+                <input class=button type="button" id="btnShowMsg4" value="T-shirts" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton1">
+                <input class=button type="button" id="btnShowMsg5" value="Hoodies" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton1">
+                <input class=button type="button" id="btnShowMsg6" value="Hats" onClick='showMessage(this.id)'/>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="column2">
+                <img src="Images/lanyards.png">
+            </div>
+
+            <div class="column2">
+            <img src="Images/wristband.webp">
+            </div>
+
+            <div class="column2">
+                <img src="Images/keyring.jpg">
+            </div>
+        </div>
+
+        <div class="rowbutton2">
+            <div class="columnbutton2">
+                <input class=button type="button" id="btnShowMsg7" value="Lanyards" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton2">
+                <input class=button type="button" id="btnShowMsg8" value="Wristbands" onClick='showMessage(this.id)'/>
+            </div>
+            <div class="columnbutton2">
+                <input class=button type="button" id="btnShowMsg9" value="Keyrings" onClick='showMessage(this.id)'/>
+            </div>
+        </div>
+
+        <hr>
+
+        <p> All merch available at the festival </p>
+
+        <hr>
+
+    </body>
+
+</html>

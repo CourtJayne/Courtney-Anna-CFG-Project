@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.event{
+  color: white;
+  font-size: 12px;
+  display: block;
+  float: left;
+  text-align: left;
+}
+
+.logo{
+  display: block;
+  float:left;
+  width: 90px;
+  height: 80px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* Navigaation Bar */
+.topnav{
+  padding-left: 100px;
+  display: inline;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+}
+.topnav a {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  width: 25%;
+}
+
+.bookTickets{
+  width: 25%;
+  display: block;
+  float: right;
+}
+input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+ h1 {
+    color: hotpink;
+    font-size: 20px;
+    padding-right: 12%;
+  }
+
+  .button {
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    display: flex;
+    text-emphasis: none;
+    border: none;
+  }
+
+  .button:hover {
+    color: hotpink;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .row1 {
+    display: flex;
+  }
+
+  .column1 {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .row2 {
+    display: flex;
+  }
+
+  .column2 {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  .rowbutton {
+    display: flex;
+  }
+
+  .columnbutton {
+    flex: 33.33%;
+    flex-wrap: wrap;
+    padding-left: 175px;
+  }
+
+  .rowbutton1 {
+    display: flex;
+  }
+
+  .columnbutton1 {
+    flex: 33.33%;
+    flex-wrap: wrap;
+    padding-left: 175px;
+  }
+
+  .rowbutton2 {
+    display: flex;
+  }
+
+  .columnbutton2 {
+    flex: 33.33%;
+    flex-wrap: wrap;
+    padding-left: 175px;
+  }
+
+  p {
+    color: hotpink;
+    font-size: 20px;
+  }

@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+}
+.event{
+  color: white;
+  font-size: 12px;
+  display: block;
+  float: left;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.logo{
+  display: block;
+  float:left;
+  width: 90px;
+  height: 80px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* Navigaation Bar */
+.topnav{
+  padding-left: 100px;
+  display: inline;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+}
+.topnav a {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  width: 25%;
+}
+
+.bookTickets{
+  width: 25%;
+  display: block;
+  float: right;
+}
+
+/* header 1 */
+h1{
+  color: white;
+  font-size: 20px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+
+/* SlideShow */
+.fling-minislide {
+  width:350px; 
+  height:300px; 
+  overflow:hidden; 
+  position:center;
+}
+.fling-minislide img{ 
+  position:absolute; 
+  animation:fling-minislide 20s infinite; 
+  opacity:0; 
+  width: 75%; 
+  height: 75%;
+}
+  
+@keyframes fling-minislide {25%{opacity:1;} 40%{opacity:0;}}
+.fling-minislide img:nth-child(4){animation-delay:0s;}
+.fling-minislide img:nth-child(3){animation-delay:5s;}
+.fling-minislide img:nth-child(2){animation-delay:10s;}
+.fling-minislide img:nth-child(1){animation-delay:15s;}
+
+/* Newsletter */
+form {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+}
+
+input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+/* Countdown Timer */
+p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color: hotpink;
+}

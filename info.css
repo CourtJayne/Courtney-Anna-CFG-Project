@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.event{
+  color: white;
+  font-size: 12px;
+  display: block;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+}
+
+.logo{
+  display: block;
+  float:left;
+  width: 90px;
+  height: 80px;
+  padding-right: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* Navigaation Bar */
+.topnav{
+  padding-left: 100px;
+  display: inline;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+}
+.topnav a {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  width: 25%;
+}
+
+.bookTickets{
+  width: 25%;
+  display: block;
+  float: right;
+}
+input[type=text], input[type=submit] {
+  width: 30%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: hotpink;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+  hr {
+    color: white
+  }
+
+  h1 {
+    color: hotpink;
+    font-size: 20px;
+    padding-right: 12%;
+  }
+
+  h2 {
+    color: pink;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  p {
+    color: pink;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+
+
+  li {
+    color: pink;
+    text-align: left;
+    font-size: 18px;
+  }
+
+  .map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
